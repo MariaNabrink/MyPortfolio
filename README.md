@@ -1,2 +1,3 @@
 # MyPortfolio
-A web project for Udacity course Intro to HTML, CSS, Bootstrap
+A responsive web project with HTML, CSS, Bootstrap and some Javascript. 
+This is my portfolio where you can find all my projects.
