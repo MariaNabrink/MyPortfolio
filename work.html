@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="css/style.css"/>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Michroma' rel='stylesheet' type='text/css'>
+  <title>Bootstrap</title>
+</head>
+<body>
+
+  <div class="row">
+    <div class="col-xs-12">
+      <nav class="navbar navbar-default navbar-fixed-top" role="navigation" style="margin-bottom:30px;">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigationbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="main.html">Home</a>
+          </div>
+          <div class="collapse navbar-collapse" id="navigationbar">
+            <ul class="nav navbar-nav">
+              <li><a href="./about.html">About</a></li>
+              <li><a href="./work.html">Featured work</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+    </div>
+  </div>
+
+  <div class="row" style="margin:20px;">
+    <div class="col-xs-12 text-uppercase work-h2">
+        <h2>Featured Work</h2>
+    </div>
+  </div>
+
+  <div class="row" style="margin:20px;">
+    <div class="col-md-6" data-toggle="modal" data-target="#myModal1">
+        <img class="img-responsive middle-img" src="images/neras-egg1.png">
+        <h3 class="text-uppercase">neras egg</h3>
+        <a href="https://github.com/MariaNabrink/neras-egg">Link to project</a>
+    </div>
+    <div class="col-md-6" data-toggle="modal" data-target="#myModal2">
+      <img class="img-responsive middle-img" src="images/meteorite1.png">
+      <h3 class="text-uppercase">meteorite impact visualizer</h3>
+      <a href="https://github.com/MariaNabrink/MeteoriteImpactVisualizer">Link to project</a>
+    </div>
+  </div>
+
+  <div class="row" style="margin:20px;">
+    <div class="col-md-6" data-toggle="modal" data-target="#myModal3">
+      <img class="img-responsive middle-img" src="images/caligari.jpg">
+      <h3 class="text-uppercase">my movies project</h3>
+      <a href="https://github.com/MariaNabrink/my-movies">Link to project</a>
+    </div>
+    <div class="col-md-6" data-toggle="modal" data-target="#myModal4">
+      <img class="img-responsive middle-img" src="images/chucky.jpg">
+      <h3 class="text-uppercase">horror quiz</h3>
+      <a href="http://github.com">Link to project</a>
+    </div>
+  </div>
+
+</body>
+</html>
